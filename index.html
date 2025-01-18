@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interested Game</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+        * {
+            background-color: #000;
+        }
+
+        
+        ul {
+            padding: 20px 40px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        li {
+            padding: 5px 0;
+            /* border-bottom: 1px solid #dee2e6; */
+            color: #dee2e6;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+        a{
+            color: #fff;
+        }
+        a:hover{
+            color: blue;
+        }
+        button {
+            border-radius: 20px;
+            background-color: blue;
+            color: #ffff;
+            padding: 8px;
+            border: #dee2e6 2px solid;
+        }
+        /* button:hover{
+            background-color: red;
+            font-weight: 800;
+        } */
+
+        h1 {
+            color: #fff;
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-weight: 4000;
+            font-style: normal;
+        }
+
+        .h:hover{
+            background-color: red;
+        }
+        .d{
+            display: flex;
+        }
+
+        .images {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        .images img {
+            padding: 20px 0px;
+        }
+        h3 h4 {
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class=" text-center rules-container">
+        <h1 class="mt-4 mb-4">Welcome to Falling Blocks</h1>
+        <p style="color: #cbc9c9fe;" >Player must complete the falling word before reaching the red line</p>
+        <div class="">
+            <div class=" d">
+                <ul>
+                    <li><a href="#d" >Download Falling Words Game</a></li>
+                    <li><a href="#images" >
+                        How to play this game </a>
+                        <ul>
+                            <li><a href="#wlc">1st page</a></li>
+                            <li><a href="#exe">2nd page </a></li>
+                            <li><a href="#end">3rd page</a></li>
+                        </ul>
+                     </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="images" id="images" >
+            <div>
+                <h3 id="wlc" style="color: #fff;" >welcome page</h3>
+                <img height="400px" width="400px" src="./Type Shooter ! 18-01-2025 12_08_15 PM (1).png" alt="" srcset="">
+            </div>
+            <div>
+                <h4 id="exe" style="color: #fff;" >Player must complete the falling word before reaching the red line</h4>
+                <img height="400px" width="400px" src="./Type Shooter ! 18-01-2025 12_07_19 PM.png" alt="" srcset="">
+            </div>
+            <div>
+                <h3 id="end" style="color: #fff;" >over page</h3>
+                <img height="400px" width="400px" src="./Type Shooter ! 18-01-2025 12_07_26 PM.png" alt="" srcset="">
+            </div>
+        </div>
+        <h2 style="color: #fff;" >
+            Download game and enjoy !
+        </h2>
+        <button id="d"><a style="background-color: blue  " class="h" href="https://drive.google.com/file/d/1WI6erfuyIq8_n2g2gECg8WrtlrkiuYcb/view?usp=drive_link" download >Download</a></button>
+    </div>
+</body>
+
+<script>
+    const element = document.getElementById("h")
+
+    element.addEventListener("click", myFunction);
+
+    function myFunction() {
+        console.log("{njjb}")
+        //   document.getElementById("demo").innerHTML = "Hello World";
+    }
+</script>
+
+</html>
